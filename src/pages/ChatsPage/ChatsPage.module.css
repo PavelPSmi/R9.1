@@ -1,0 +1,9 @@
+.border {
+  margin-top: 10px;
+  border: 1px solid rgb(113, 36, 136);
+  border-radius: 3px;
+}
+/* .chatPage-style{
+  display: flex;
+  margin: 0 auto;
+} */
