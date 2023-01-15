@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container-style{
+    background-color: rgb(220, 201, 223);
+    opacity: 0.9;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.header li a{
+    font-size: 25px;
+    text-decoration: none;
+  display: inline-block;
+  position: relative;
+}
+a:hover::after {
+  width: 100%;
+  right: 0;
+}
+a::after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 4px;
+  right: 0;
+  position: absolute;
+  background: linear-gradient(to left, #f69ec4, #f9dd94 100%);
+  transition: width .5s ease 0s, right .5s ease 0s;
+  width: 0;
+}
+li{
+    margin-top: 20px;
+    list-style: none;
+}
